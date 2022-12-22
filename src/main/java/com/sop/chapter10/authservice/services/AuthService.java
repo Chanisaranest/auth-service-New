@@ -80,20 +80,5 @@ public class AuthService {
             return null;
         }
     }
-    public AuthMeResponse me(String id, String email, String role){
-        return new AuthMeResponse(id, email,role);
-    }
-//    public AuthResponse logIn(AuthRequest authRequest){
-//        // check email and password here
-//        User user = User.builder()
-//                ._id("1")
-//                .email(authRequest.getEmail())
-//                .password(authRequest.getPassword())
-//                .role("admin")
-//                .build();
-//        String accessToken = jwt.generate(user, "ACCESS");
-//        String refreshToken = jwt.generate(user, "REFRESH");
-//
-//        return new AuthResponse(accessToken, refreshToken);
-//    }
+ 
 }
